@@ -12,5 +12,6 @@ def countdown_to_sleep(integer)
   while integer.seconds >= 1 
   puts "#{integer} SECOND(S)"
   integer -= 1 
+  sleep 1 
   end
 end
